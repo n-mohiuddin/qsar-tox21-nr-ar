@@ -118,7 +118,7 @@ The model achieves high precision with moderate recall, reflecting a conservativ
 
 **Precision–Recall AUC (PR-AUC)**
 
-![Precision–Recall Curve](results/pr_auc_curve.png)
+![Precision–Recall Curve](results/precision_recall_curve.png)
 
 The final Random Forest model achieves a PR-AUC of 0.69, which is substantially higher than the random baseline (~0.04 given class prevalence).
 This indicates that the model is highly effective at prioritizing true NR-AR active compounds, making it well-suited for practical toxicity screening where only a limited number of compounds can be tested experimentally.
