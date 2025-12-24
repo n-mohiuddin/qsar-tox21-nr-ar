@@ -1,4 +1,4 @@
-## 🧪 QSAR-Based Toxicity Prioritization for NR-AR (Tox21)
+##  QSAR-Based Toxicity Prioritization for NR-AR (Tox21)
 
 ### 1. Project Overview
 This project develops a QSAR-based machine learning model for predicting and
