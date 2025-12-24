@@ -116,6 +116,13 @@ Given the strong class imbalance, emphasis is placed on:
 
 The model achieves high precision with moderate recall, reflecting a conservative screening behavior suitable for toxicity prioritization.
 
+**Precision–Recall AUC (PR-AUC)**
+
+![Precision–Recall Curve](results/pr_auc_curve.png)
+
+The final Random Forest model achieves a PR-AUC of 0.69, which is substantially higher than the random baseline (~0.04 given class prevalence).
+This indicates that the model is highly effective at prioritizing true NR-AR active compounds, making it well-suited for practical toxicity screening where only a limited number of compounds can be tested experimentally.
+
 ### 8. Prioritization & Enrichment Analysis
 In contrast to traditional binary QSAR classification, this model ranks compounds
 by predicted NR-AR activity probability rather than applying a hard decision
