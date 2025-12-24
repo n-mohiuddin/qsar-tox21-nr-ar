@@ -158,7 +158,9 @@ real-world toxicity screening applications.
 ---
 
 ### Author
+
 **Nezihe Mohiuddin**  
+📧 nezihemohiuddin@gmail.com
 
 
 
